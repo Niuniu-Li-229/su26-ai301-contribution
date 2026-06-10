@@ -1,25 +1,15 @@
-# Contribution 1: Improve osv-scanner `--help` documentation
+# Contribution [#]: [Issue Title]
 
-**Contribution Number:** 1  
-**Student:** Wanjing Yang  
-**Issue:** https://github.com/google/osv-scanner/issues/570  
-**Project:** [google/osv-scanner](https://github.com/google/osv-scanner)  
-**Status:** Phase I Complete
+**Contribution Number:** [1 / 2 / 3]  
+**Student:** [Your Name]  
+**Issue:** [GitHub issue link]  
+**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
 
 ---
 
 ## Why I Chose This Issue
 
-I chose issue [#570](https://github.com/google/osv-scanner/issues/570) in `google/osv-scanner`, "Improve osv-scanner `--help` documentation." osv-scanner is Google's tool for finding known vulnerabilities in a project's dependencies using the OSV database, and right now its `--help` output is incomplete: it doesn't list all of the available `--format` options, it has no link to the web documentation, and there is no generated `man` page. This matters because the `--help` text is the first place users look to understand a CLI, so missing or out-of-date help directly hurts the tool's usability and discoverability. "Fixed" means the help lists every format option, links to the docs, and a man page is generated from shared source so it can't drift from the web docs.
-
-I'm interested in this because:
-
-1. **The scope is small and clearly bounded.** The issue spells out three concrete sub-tasks, so I know exactly what "done" looks like and can scope my PR without risk of scope creep.
-2. **It's an approachable on-ramp to a new language.** The project is written in Go, which is new to me, but documentation/CLI help-text work is a gentle way to learn a codebase, and I can ramp up quickly with Claude Code.
-3. **The project is very actively maintained.** osv-scanner merges contributor PRs almost daily, so a well-scoped fix has a realistic path to actually being reviewed and merged.
-4. **I want to learn** how a real-world Go CLI structures its flags and help output, and how a project generates a `man` page from a single source of truth so docs stay in sync.
-
-The issue is labeled `good first issue` and `documentation`, is open, unassigned, and has no existing pull request, so it's available for me to claim.
+[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
 
 ---
 
